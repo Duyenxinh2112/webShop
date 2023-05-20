@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Admin | Thêm Sản Phẩm</title>
+    <link rel="stylesheet" href="./asset/css/style.css">
+    <link rel="stylesheet" href="./asset/font/themify-icons/themify-icons.css">
+</head>
+
+<body>
+    <script src="./js/script.js"> </script>
+    <!---------------------------------------------------------Header-->
+
+    <!------------------------------------------------- Content----------->
+    <div id="content">
+        <div class="container">
+            <div class="row">
+                <div class="category-left">
+                    <img src="./asset/img/logo/logo1.png" alt="">
+                    <p>Chào : Ánh Nguyễn</p>
+                    <ul>
+                        <li class="category-left-li">
+                            <a href="./homeAdmin.html">
+                                <button class="nav-ti-plus">
+                                    <i class="ti-layout"></i></button>
+                                TRANG CHỦ
+                            </a>
+                            <ul class="subnav1">
+                                <li><a href="./addProduct.html">Thêm Sản Phẩm</a></li>
+                                <li><a href="./delete.html">Xóa Sản Phẩm</a></li>
+                                <li><a href="./fix.html">Sửa Sản Phẩm</a></li>
+                            </ul>
+                        </li>
+                        <li class="category-left-li">
+                            <a href="#">
+                                <i class="nav-ti-plus ti-pencil-alt"></i>
+                                ĐƠN HÀNG
+                            </a>
+                            <ul class="subnav1">
+                                <li><a href="">Chưa hoàn thành</a></li>
+                                <li><a href="">Đã hoàn thành</a></li>
+                                <li><a href="">Tất cả Đơn hàng</a></li>
+                            </ul>
+                        </li>
+                        <li class="category-left-li">
+                            <a href=""> <i class="nav-ti-plus ti-menu-alt"></i>
+                                DANH MỤC
+                            </a>
+                            <ul class="subnav1">
+                                <li><a href="">Danh sách Doanh Mục</a></li>
+                                <li><a href="">Loại Doanh Mục</a></li>
+                            </ul>
+                        </li>
+                        <li class="category-left-li">
+                            <a href="./login_admin.html"> <i class="nav-ti-plus ti-power-off"></i>
+                                ĐĂNG XUẤT
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="category-right">
+                    <h1><i class="ti-arrow-circle-right"></i>Thêm Sản Phẩm</h1>
+                    <div class="category-right-product-add">
+                        <div class="category-product-left">
+                            <h3>Mô tả</h3>
+                            <div class="modal"><br>
+                                <label for="">Nhập tên sản phẩm<span style="color: red;">*</span></label>
+                                <input type="text">
+                                <label for="">Nhập mã sản phẩm<span style="color: red;">*</span></label>
+                                <input type="text">
+                                <label for="">Mô tả sản phẩm<span style="color: red;">*</span></label>
+                                <textarea name="" id="" cols="30" rows="10"></textarea>
+                            </div>
+                            <h3>Danh mục</h3>
+                            <div class="modal"><br>
+                                <label for="">Chọn danh mục<span style="color: red;">*</span></label>
+                                <select name="" id="">
+                                    <option value="#">--Chọn danh mục--</option>
+                                </select>
+                                <select name="" id="">
+                                    <option value="#">--Chọn loại sản phẩm--</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="category-product-right">
+                            <h3>Size</h3>
+                            <div class="modal">
+                            <div class="product-size"><br>
+                                <p style="font-weight: bold">Size:</p>
+                                <div class="sizes">
+                                    <span class="size">S</span>
+                                    <span class="size">M</span>
+                                    <span class="size">L</span>
+                                    <span class="size">XL</span>
+                                    <span class="size">XXL</span>
+                                </div>
+                            </div>
+                            </div>
+                            
+
+                            <h3>Giá cả</h3>
+                            <div class="modal">
+                                <br>
+                                <label for="">Giá sản phẩm<span style="color: red;">*</span></label>
+                                <input type="text">
+                                <label for="">Giá khuyến mại<span style="color: red;">*</span></label>
+                                <input type="text">
+                            </div>
+                            <h3>Hình ảnh</h3>
+                            <div class="modal">
+                                <br>
+                                <p>
+                                    <label for="">Ảnh sản phẩm<span style="color: red;">*</span></label>
+                                    <input type="file">
+                                    <label for="">Ảnh mô tả<span style="color: red;">*</span></label>
+                                    <input type="file">
+                                </p>
+                            </div>
+
+                            <button type="submit">Thêm Sản Phẩm</button>
+                            <button type="submit">Hủy Sản Phẩm</button>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!--------------------------------------------------------------------Footer-->
+
+</body>
+
+</html>
